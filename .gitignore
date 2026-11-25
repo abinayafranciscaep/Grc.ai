@@ -1,0 +1,10 @@
+# secrets
+.env
+# local database and exports (contain your organisation's risk data)
+data/*.db
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/

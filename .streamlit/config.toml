@@ -1,0 +1,48 @@
+# AFEP theme - dark green terminal aesthetic (matches abinayaf.netlify.app)
+[server]
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#A5D3B7"
+backgroundColor = "#0C231D"
+secondaryBackgroundColor = "#0F2B24"
+textColor = "#C9D2B8"
+linkColor = "#A5D3B7"
+borderColor = "#305148"
+showWidgetBorder = true
+baseRadius = "none"
+font = "Space Grotesk"
+headingFont = "Space Mono"
+codeFont = "Space Mono"
+
+[[theme.fontFaces]]
+family = "Space Grotesk"
+url = "app/static/fonts/SpaceGrotesk-Regular.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Space Grotesk"
+url = "app/static/fonts/SpaceGrotesk-Medium.woff2"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Space Grotesk"
+url = "app/static/fonts/SpaceGrotesk-Bold.woff2"
+weight = 700
+
+[[theme.fontFaces]]
+family = "Space Mono"
+url = "app/static/fonts/SpaceMono-Regular.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Space Mono"
+url = "app/static/fonts/SpaceMono-Bold.woff2"
+weight = 700
+
+[theme.sidebar]
+backgroundColor = "#0F2B24"
